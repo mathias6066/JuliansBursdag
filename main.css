@@ -1,0 +1,29 @@
+body{
+	text-align: center;
+	background-color:#FF9933; 
+	font-family: arial;
+	font-size:18px;
+}
+
+li{
+	list-style: none;
+	line-height: 2em;
+	text-align: left;
+}
+
+.header{
+	background: #FFA500;
+	border-bottom:#FF8C00	 3px solid;
+	border-top:#FF8C00	 3px solid;
+	border-right: :#FF8C00	 3px solid;
+	border-left:#FF8C00	 3px solid;
+	padding: 20px;
+}
+
+.Download{
+	padding-top: 600px;
+}
+
+.Game{
+	position: absolute;
+}
