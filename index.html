@@ -210,7 +210,7 @@
 			function init() {
 				score = 0;
 				grid.init(EMPTY, COLS, ROWS);
-				var sp = {x:Math.floor(COLS/1), y:ROWS-1};
+				var sp = {x:Math.floor(COLS/2), y:ROWS-1};
 				snake.init(UP, sp.x, sp.y);
 				grid.set(SNAKE, sp.x, sp.y);
 				setFood();
@@ -318,7 +318,7 @@
 				// changes the fillstyle once more and draws the score
 				// message to the canvas
 				ctx.fillStyle = "#fff";
-				ctx.fillText("SCORE: " + score, 10, canvas.height-10);
+				ctx.fillText("SCORE: " + score, 5, canvas.height-10);
 			}
 			// start and run the game
 			main();
